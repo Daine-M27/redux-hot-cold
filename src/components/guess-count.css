@@ -1,5 +1,11 @@
 #count {
 	color: #f39c12;
-	font-weight: 700;
-	font-size: 1.5em;
+
+}
+
+.guesses-text {
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 1em;
+	padding-top: 10px;
 }

@@ -50,10 +50,13 @@ export const hotAndColdReducer = (state=initialState, action) => {
     }
 
     else if (action.type === NEW_GAME) {
+        console.log(state.placeHolder);
         state = Object.assign({}, initialState, {
             correctAnswer: action.correctAnswer,
             placeHolder: "Try Again"
         });
+        console.log(state.placeHolder);
+
 
         return state;
 

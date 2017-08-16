@@ -1,3 +1,7 @@
+form {
+	padding-top: 10px;
+}
+
 input {
 	width: 300px;
 	height: 50px;
@@ -13,8 +17,8 @@ input {
 }
 
 input.button {
-	background: #1F253D;
-	color: #95a5a6;
+	background: #11a8ab;
+	color: #fff;
 	font-size: 2em;
 	padding: 0.2em;
 	-webkit-transition: background 1s ease-in-out;
@@ -59,4 +63,9 @@ input:focus {
 
 :-ms-input-placeholder {  
    color: #95a5a6; 
+}
+
+.label-text {
+	color: #ffffff;
+
 }
